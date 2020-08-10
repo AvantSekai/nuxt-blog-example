@@ -4,27 +4,27 @@
       <h1>Get the latest tech news!</h1>
     </section>
     <section class="featured-posts"></section>
-    <PostPreview
+    <PostList
       id="1"
       thumbnail="https://code.visualstudio.com/assets/docs/editor/integrated-terminal/integrated-terminal.png"
       title="Hello there!"
       previewText="This is my first post!"
     />>
-    <PostPreview
+    <PostList
       id="2"
       thumbnail="https://code.visualstudio.com/assets/docs/editor/integrated-terminal/integrated-terminal.png"
       title="Post 2!"
       previewText="This is my first post!"
-    />> <PostPreview />>
+    />> <PostList />>
   </div>
 </template>
 
 <script>
-  import PostPreview from "@/components/Posts/PostPreview";
+  import PostList from "@/components/Posts/PostList";
 
   export default {
     components: {
-      PostPreview: PostPreview,
+      PostList: PostList,
     },
   };
 </script>
