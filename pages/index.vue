@@ -3,19 +3,7 @@
     <section class="intro">
       <h1>Get the latest tech news!</h1>
     </section>
-    <section class="featured-posts"></section>
-    <PostList
-      id="1"
-      thumbnail="https://code.visualstudio.com/assets/docs/editor/integrated-terminal/integrated-terminal.png"
-      title="Hello there!"
-      previewText="This is my first post!"
-    />>
-    <PostList
-      id="2"
-      thumbnail="https://code.visualstudio.com/assets/docs/editor/integrated-terminal/integrated-terminal.png"
-      title="Post 2!"
-      previewText="This is my first post!"
-    />> <PostList />>
+    <PostList />
   </div>
 </template>
 
